@@ -1,0 +1,18 @@
+{
+  "name": "http-video-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header id="head" style=position:fixed;>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+	<link rel="stylesheet" href="/index.css">
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+	<script src=./script.js></script>	
+	<span id="expand" style="font-size:20px;cursor:pointer;" onclick="openNav()"><h1>&#9776;</h1></span>
+</header>
+  <body onload="lightbox_close()">
+<div id="TheSidenav" class="sidenav" class="crop">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" float=left><font size=35>&times;</font></a> 
+</div>
+<div style="padding : 0% 5%;" id="main" class="main">
+    <h2>Myflix</h2>
+    <p>Myflix for AC51041. All videos are downloaded from Pexels</p>
+    <p>
+      Your recommendations are shown in side menu
+    </p>
+	<div id="selectmenu">
+	</div>
+	<div id="light">
+  <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+      <video src="" id="videoPlayer" name="videoPlayer" controls autoplay>
+    </video>
+</div>
+<div id="fade" onClick="lightbox_close();"></div>
+</div>
+  </body>
+</html>
