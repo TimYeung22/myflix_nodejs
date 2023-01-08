@@ -14,7 +14,7 @@ const uidlist = [];
 const relist = [];
 
 let url = "http://10.154.0.6/";
-let reurl = "http://34.89.66.171/myflix/re"
+let reurl = "http://10.154.0.10/myflix/re"
 let videosurl = url + "myflix/videos";
 let caturl = url + "myflix/categories";
 
