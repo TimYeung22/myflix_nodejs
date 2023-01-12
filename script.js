@@ -49,7 +49,6 @@ $(document).ready(function() {
 		window.scrollTo(0, 0);
 		document.getElementById('light').style.display = 'block';
 		document.getElementById('fade').style.display = 'block';
-		console.log(this.name)
 		let videoname = 'vid/'+this.name;
 		e.preventDefault();
 		$.ajax({
@@ -61,7 +60,6 @@ $(document).ready(function() {
 	lightBoxVideo.src='/videos/'+this.name;
     var content = lightBoxVideo.innerHTML;
     lightBoxVideo.innerHTML= content; 
-	console.log('refreshed');
    });
 });
 
