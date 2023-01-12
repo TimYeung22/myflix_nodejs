@@ -2,7 +2,6 @@ $(document).ready(function() {
 	openNav();
 	let u_id = 1000001;
 	$.get( "/re/"+u_id, function(data) {
-		console.log('data are'+data);
 		var src = document.getElementById("TheSidenav");
 		var recomm = document.createElement("div");
 		recomm.setAttribute('Id','recom');
@@ -15,7 +14,6 @@ $(document).ready(function() {
 	});
 	$.get( "/catalogues", function(data) {
 			var catcatalogue = data;
-			console.log(catcatalogue);
 		for(let i = 0; i < catcatalogue.length; i ++ ) {
 			let currentElement = catcatalogue[i];
 			var src = document.getElementById("selectmenu");
@@ -31,7 +29,6 @@ $(document).ready(function() {
 	});
 	$.get( "/uuid", function(data) {
 			var videocatalogue = data;
-			console.log(videocatalogue[0])
 		for(let i = 0; i < videocatalogue.length; i ++ ) {
 			let currentElement = videocatalogue[i];
 			$.get( "/uuid/"+currentElement, function(data2) {
