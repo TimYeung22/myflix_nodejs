@@ -23,7 +23,7 @@ $(document).ready(function() {
 			buttonss.setAttribute('name','catalogue');
 			text = currentElement;
 			buttonss.setAttribute('name',currentElement);
-			buttonss.innerHTML='<b>Catagory: '+text+'<br>';
+			buttonss.innerHTML='<b><font size="5">Catagory: '+text+'</font><br>';
 			src.appendChild(buttonss);
 		}
 	});
